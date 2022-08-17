@@ -17,4 +17,5 @@ $ rosrun map_server map_saver -f ~/map
 The -f option specifies a folder location and a file name where files to be saved.
 With the above command, map.pgm and map.yaml will be saved in the home folder ~/(/home/${username}).
 
+
 The map uses two-dimensional Occupancy Grid Map (OGM), which is commonly used in ROS. The saved map will look like the figure below, where white area is collision free area while black area is occupied and inaccessible area, and gray area represents the unknown area. This map is used for the Navigation.
